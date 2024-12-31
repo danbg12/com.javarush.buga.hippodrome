@@ -10,7 +10,6 @@ class HippodromeTest {
 
     private List<Horse> horseList = new ArrayList<>();
     private List<Horse> horseListMocks = new ArrayList<>();
-
     {
         for (int i = 1; i <= 30; i++) {
             String name = "Horse_" + i;

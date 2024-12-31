@@ -25,7 +25,6 @@ class HorseTest {
         } else if (distance < 0) {
             message = "Distance cannot be negative.";
         }
-
         assertThrows(IllegalArgumentException.class, () -> new Horse(name, speed, distance));
         assertEquals(message, assertThrows(IllegalArgumentException.class, () -> new Horse(name, speed, distance)).getMessage());
     }

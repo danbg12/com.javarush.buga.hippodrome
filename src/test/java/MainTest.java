@@ -11,6 +11,5 @@ class MainTest {
     @Test
     @Timeout(value = 22, unit = TimeUnit.SECONDS)
     @Disabled
-    void mainTestRunTime() {
-    }
+    void mainTestRunTime() {}
 }
